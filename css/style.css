@@ -1,0 +1,82 @@
+body {
+    font-size: clamp(16px, 2vw, 20px);
+    /* font-size: 2vw; */
+    /* font-size: max(20px , 2vw); */
+}
+
+.card{
+    display: inline-block;
+    width: 20%;
+    margin: 2%;
+    box-sizing: border-box;
+  
+}
+
+.card img{
+    width: 100%;
+
+}
+
+.parent {
+ 
+    border: 10px solid red;
+}
+
+.activities .card {
+    width: 27%;
+    margin: 3%;
+}
+
+.activities {
+    background-color: aqua;
+}
+
+
+@media (max-width: 1022px) {
+    .activities .card {
+        width: 40%;
+        margin: 4%;
+    }
+}
+
+@media (max-width:1083px){
+
+
+
+    .department .card{
+        width: 40%;
+        margin: 4%;
+    }
+
+
+
+
+
+
+
+}
+
+
+@media (max-width: 540px){
+
+    .department .card{
+        width: 100%;
+        margin: 0 0 4% 0;
+    }
+
+    .activities .card{
+        width: 100%;
+        margin: 0;
+    }
+
+    .activities {
+        background-color: rgb(251, 0, 255);
+    }
+
+
+
+
+
+
+}
+
