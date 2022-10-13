@@ -3,12 +3,12 @@
 .bar{
     background-color: lightgrey;
     padding: 10px;
-    transition: all 1s ease;
+    transition: all .2s ease;
     height: 9rem;
     overflow: hidden;
   }
   .logo {
-    font-size: 30px;
+    font-size: 20px;
     text-transform: capitalize;
     display:flex;
     justify-content: space-between;
@@ -21,9 +21,14 @@
   }
 
   .closed {
-    height: 4rem;
+    height: 3rem;
     overflow: hidden;
     transition: all 1s ease;
+  }
+
+  .burger {
+    border-radius: 5px;
+  
   }
 
   @media (min-width: 992px) {
