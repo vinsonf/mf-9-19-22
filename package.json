@@ -1,0 +1,24 @@
+{
+  "name": "mf-9-19-22",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "sass -w scss:css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vinsonf/mf-9-19-22.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vinsonf/mf-9-19-22/issues"
+  },
+  "homepage": "https://github.com/vinsonf/mf-9-19-22#readme",
+  "dependencies": {
+    "bootstrap": "^5.2.2",
+    "sass": "^1.55.0"
+  }
+}

@@ -1,0 +1,17 @@
+
+.section2 {
+    @include theme;
+    h1{
+        color: $secondary;
+    }
+    div{
+        color: $primary;
+        background-color: $secondary;
+        padding: $basic-padding;
+        ul{
+            li{
+                @include theme($primary);
+            }
+        }
+    }
+}
